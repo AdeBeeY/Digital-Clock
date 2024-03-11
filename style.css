@@ -1,4 +1,22 @@
 body {
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#display {
+  font-size: 5rem;
+  border: 5px solid white;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 30px;
+  transition: ease-in-out 1s;
+}
+
+#display:hover {
+  color: yellowgreen;
+  border: 5px solid yellowgreen;
 }
